@@ -18,10 +18,9 @@ lyrics = [
     ("ฉันยังคงเชื่อว่าสักวัน ยังหวังว่าสักวัน จะได้พบกัน", 9.5),
     ("นั้นไม่รู้เมื่อไหร่", 5),
     ("++++++poommintk-blip++++++", 2)
-    
 ]
 
 for line, delay in lyrics:
-    print(line)
     print()
+    print(line)
     time.sleep(delay)

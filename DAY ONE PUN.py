@@ -20,6 +20,6 @@ lyrics = [
 ]
 
 for x in lyrics:
-    print(x[0])
     print()
+    print(x[0])
     time.sleep(x[1])

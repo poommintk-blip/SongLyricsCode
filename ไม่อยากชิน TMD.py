@@ -1,6 +1,6 @@
 import time
 
-time.sleep(2)
+time.sleep(10)
 lyrics = [
     ("เจ็บไปกี่ ครั้งผ่านมากี่คน ที่เขาเข้ามา แล้วเขาก็ไป", 6),
     ("จนวันนี้ฉัน ไม่เหลือน้ำตา เพียงพอ ให้ร้องไห้อีกต่อไป", 7),
@@ -16,6 +16,6 @@ lyrics = [
 ]
 
 for line, delay in lyrics:
-    print(line)
     print()
+    print(line)
     time.sleep(delay)
